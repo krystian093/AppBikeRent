@@ -10,13 +10,13 @@ public class User {
 
     private Long id;
     private String userName;
-    private String userlastName;
+    private String userLastName;
     private String email;
     private String password;
 
     public User(String userName, String userlastName, String email, String password) {
         this.userName = userName;
-        this.userlastName = userlastName;
+        this.userLastName = userlastName;
         this.email = email;
         this.password = password;
     }
@@ -41,12 +41,12 @@ public class User {
         this.userName = userName;
     }
 
-    public String getUserlastName() {
-        return userlastName;
+    public String getUserLastName() {
+        return userLastName;
     }
 
-    public void setUserlastName(String userlastName) {
-        this.userlastName = userlastName;
+    public void setUserLastName(String userLastName) {
+        this.userLastName = userLastName;
     }
 
     public String getEmail() {

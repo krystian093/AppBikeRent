@@ -16,6 +16,10 @@ public class Bike {
         this.bikeName = bikeName;
     }
 
+    public Bike() {
+
+    }
+
     public Long getId() {
         return Id;
     }
